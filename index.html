@@ -6,73 +6,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
+    <meta name="description" content="My personal portfolio and collection of projects.">
 
-    <!-- External CSS -->
+    <title>Akranium | Portfolio</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Akranium</h1>
-        <p>Student | Developer</p>
-        <!--No nav for now -->
-        <!--
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+    <!-- HEADER AND NAVIGATION -->
+
+    <header class="site-header">
+
+        <span class="site-logo">
+            Akranium
+        </span>
+
+        <nav class="main-navigation">
+            <a href="index.html">Home</a>
+            <a href="pages/programming.html">Programming</a>
+            <a href="pages/translation.html">Translation</a>
         </nav>
-        -->
+
     </header>
+
+
+    <!-- MAIN CONTENT -->
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <!-- INTRODUCTION -->
+
+        <section class="home-introduction">
+
+            <h1>Hello, I'm Akranium.</h1>
+
             <p>
-                Hello! I'm Akranium.
-                Welcome to my personal portfolio.
+                Welcome to my portfolio! You can find my interests
+                and the things I have done so far in this website.
             </p>
+
+            <p>
+                Check the skill cards down below to get started!
+            </p>
+
         </section>
 
-        <!--
-        <section id="projects">
-            <h2>My Projects</h2>
 
-            <article class="project">
-                <h3>Project One</h3>
-                <p>Project description goes here.</p>
-                <a href="#">View Project</a>
-            </article>
+        <!-- SKILL CATEGORIES -->
 
-            <article class="project">
-                <h3>Project Two</h3>
-                <p>Project description goes here.</p>
-                <a href="#">View Project</a>
-            </article>
-        </section>
-        -->
+        <section class="skills-overview">
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>HTML | CSS | Python | JavaScript</p>
-        </section>
+            <h2>My Areas of Interest</h2>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: your.email@example.com</p>
-            <a href="https://github.com/yourusername">
-                GitHub
-            </a>
+            <p>
+                Choose an area to discover more about my work
+                and the projects I've created.
+            </p>
+
+
+            <div class="skills-container">
+
+                <article class="skill-card">
+
+                    <h3>Programming</h3>
+
+                    <p>
+                        Software development, hackathons,
+                        and technical projects.
+                    </p>
+
+                    <a href="pages/programming.html">
+                        Explore Programming →
+                    </a>
+
+                </article>
+
+                <article class="skill-card">
+
+                    <h3>Translation</h3>
+
+                    <p>
+                        Game translations.
+                    </p>
+
+                    <a href="pages/translation.html">
+                        Explore Translation →
+                    </a>
+
+                </article>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Your Name</p>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <p>© 2026 Akranium</p>
+
+        <a href="mailto:akranium@proton.me">
+            Get in touch
+        </a>
+
     </footer>
 
 </body>
